@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+   <h1>Norman Principles Demo </h1>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="center">
+
+<div id="status">Status will appear here</div>
+
+    <button id="actionBtn" onclick="performAction()">
+        Process Data (Click me!)
+    </button>
+    
+    </div>
+    <dialog id="myDialog">
+    <h2>Last Chance...</h2>
+    <p>Do you again want to process?</p>
+    <button class="dlg-btn" onclick="myDialog.close()">Yes</button>
+     <button class="dlg-btn" onclick="alert('Cancelled!')">No</button>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>
